@@ -1,24 +1,45 @@
 Service Layer API documentation
 ===============================
 
-API documentation for Service Layer API.
+API documentation for Service Layer (**SL**) API.
 
 
-API Keys
+API keys
 --------
 
-Every client Application (APP) has an API Key associated with it. This
-key is generated during the creation of the APP and can be re-generated
-from the show / edit screens in the Service Layer (SL) administrative
+Every client Application (app) has an API key associated with it. This
+key is generated during the creation of the app and can be re-generated
+from the show/edit screens in the Service Layer (SL) administrative
 console.
 
-This key uniquely identifies an APP during the calls the APP does to the
+This key uniquely identifies an app during the calls the app does to the
 SL.
 
-Definitions
------------
+Modules
+-------
 
-MO, MT, SMSC, DID coming...
+- ### [General](https://github.com/RecessMobile/API/tree/master/sections/api/module-general.md)
+
+- ### [Help](https://github.com/RecessMobile/API/tree/master/sections/api/module-help.md)
+
+- ### [Static Responses](https://github.com/RecessMobile/API/tree/master/sections/api/module-static-respones.md)
+
+- ### [Subscriptions](https://github.com/RecessMobile/API/tree/master/sections/api/module-subscriptions.md)
+
+- ### [Welcome](https://github.com/RecessMobile/API/tree/master/sections/api/module-welcome.md)
+
+
+Callbacks
+---------
+
+The following links provide detailed documentation on callbacks.
+
+- ### [General](https://github.com/RecessMobile/API/tree/master/sections/api/callbacks-general.md)
+
+- ### [Sessions](https://github.com/RecessMobile/API/tree/master/sections/api/callbacks-sessions.md)
+
+- ### [Subscriptions](https://github.com/RecessMobile/API/tree/master/sections/api/callbacks-subscriptions.md)
+
 
 Calls
 -----
@@ -30,11 +51,22 @@ service layer since it is necessary to identify the application.
 There’s an API URL that is used at all times to which the name of the
 operation is appended:
 
-### URL:
+### URL
 `http://sl.holmesmobile.com/api/<operation>` or
 `https://sl.holmesmobile.com/api/<operation>` (SSL support)
 
-Data Types
+### Types of calls
+
+- #### [Keywords](https://github.com/RecessMobile/API/tree/master/sections/api/keywords.md)
+
+- #### [Messaging](https://github.com/RecessMobile/API/tree/master/sections/api/messaging.md)
+
+- #### [Sessions](https://github.com/RecessMobile/API/tree/master/sections/api/sessions.md)
+
+- #### [Subscriptions](https://github.com/RecessMobile/API/tree/master/sections/api/subscriptions.md)
+
+
+Data types
 ----------
 
 Parameters that you specify in the calls to API and receive in callbacks
@@ -50,13 +82,12 @@ Integer number, either positive or negative.
 
 ### Boolean
 
-We are quite flexible with booleans.
+We are quite flexible with booleans. They are case-insensitive and can take the following shapes:
 
--   They are case-insensitive and can take the following shapes:
-    -   `TRUE: 1, t, true, y, yes`
-    -   `FALSE: 0, f, false, n, no`
+-   `TRUE: 1, t, true, y, yes`
+-   `FALSE: 0, f, false, n, no`
 
-### Dates and Times
+### Dates and times
 
 Dates and times parsing is very liberal in the SL. We are capable of
 parsing almost everything that can be interpreted as a date / time or
@@ -77,4 +108,11 @@ like:
 If you need a stricter definition, you can refer to [RFC2822 (3.3. Date
 and Time Specification)](http://www.faqs.org/rfcs/rfc2822.html).
 
+Definitions
+-----------
+
+MO, MT, SMSC, DID coming...
+
+[FAQ](https://github.com/RecessMobile/API/tree/master/sections/api/faq-general.md)
+----
 
