@@ -63,3 +63,6 @@ Breaks the link between the keyword and the application.
     -   `errors` - optional array of error messages. For example, when the
         keyword belongs to a different application.
 
+
+&#8617; [Home](https://github.com/RecessMobile/API)
+--------------

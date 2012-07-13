@@ -22,3 +22,7 @@ Query for carrier info for the given phone number.
         140, etc.)
     -   `:name` -- human-readable carrier name (e.g. Verizon, T-Mobile, etc.)
 
+
+&#8617; [Home](https://github.com/RecessMobile/API)
+--------------
+

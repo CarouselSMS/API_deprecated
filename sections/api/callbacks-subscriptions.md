@@ -37,3 +37,6 @@ This is invoked when a user decides to unsubscribe from the application.
 
 -   `type` -- `subscription_canceled`
 -   `phone_number` -- phone number of the unsubscribed user
+
+&#8617; [Home](https://github.com/RecessMobile/API)
+--------------

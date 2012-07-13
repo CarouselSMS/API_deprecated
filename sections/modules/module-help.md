@@ -8,3 +8,6 @@ that the response the application sends is delivered as Free To End User
 The module doesn’t do anything besides that. It delegates the processing
 to the client application, and wraps the response in the correct
 structure.
+
+&#8617; [Home](https://github.com/RecessMobile/API)
+--------------

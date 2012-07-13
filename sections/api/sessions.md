@@ -16,3 +16,7 @@ Closes active sessions between the application and phone numbers.
 
 -   `HTTP Code 500` and error message in the body
 -   `HTTP Code 200`
+
+
+&#8617; [Home](https://github.com/RecessMobile/API)
+--------------

@@ -13,3 +13,7 @@ command from the user.
 
 -   `type` -- `session_closed`
 -   `phone_numbers` -- comma-separated list of user phone numbers
+
+
+&#8617; [Home](https://github.com/RecessMobile/API)
+--------------

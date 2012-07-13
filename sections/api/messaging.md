@@ -181,3 +181,7 @@ number for new uses.
 
 - `HTTP Code 500` and error message in the body
 - `HTTP Code 200`
+
+
+&#8617; [Home](https://github.com/RecessMobile/API)
+--------------

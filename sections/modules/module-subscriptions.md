@@ -47,3 +47,7 @@ Configuration
 -   **Limit** -- number of subscription message per Limit Period that are
     allowed to this application. *Default: `5`
 -   **Limit Period** -- period of the limit (day, week, month, etc.)
+
+
+&#8617; [Home](https://github.com/RecessMobile/API)
+--------------

@@ -114,3 +114,6 @@ Use the `cancel_messages` call for regular future messages cancellation.
 -   `HTTP Code 200`
     -   `canceled_count` -- *integer* -- the number of canceled messages
 
+
+&#8617; [Home](https://github.com/RecessMobile/API)
+--------------

@@ -120,3 +120,7 @@ allowed number of characters in the single SMS message.
 ### Responses
 
 -   `Ignored` -- This is a one-way fire and forget notification.
+
+
+&#8617; [Home](https://github.com/RecessMobile/API)
+--------------

@@ -23,3 +23,6 @@ Configuration
 **Welcome text message** -- the message to send. If the message is not
     given, the module is inactive. The message field can be found on the
     application and SMSC edit page in the administrative console.
+
+&#8617; [Home](https://github.com/RecessMobile/API)
+--------------

@@ -332,3 +332,6 @@ successfully.
 
 Customize these messages to include your store name, and links to your
 web site.
+
+&#8617; [Home](https://github.com/RecessMobile/API)
+--------------

@@ -39,3 +39,6 @@ application table through the 1-to-1 relationship. However, with the
 potential growth of modules the approach may be overlooked in favor of
 an module settings table that will hold key/value rows suitable for the
 use by any modules in a unified way.
+
+&#8617; [Home](https://github.com/RecessMobile/API)
+--------------

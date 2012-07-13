@@ -21,3 +21,7 @@ Configuration
 -------------
 
 **Keyword-Response** pairs can be entered on the application/SMSC details page
+
+
+&#8617; [Home](https://github.com/RecessMobile/API)
+--------------
