@@ -2,7 +2,7 @@ Callbacks - sessions
 ====================
 
 
-Session Closed `(session_closed)`
+Session closed `(session_closed)`
 ---------------------------------
 
 This callback is performed when the user session with an application is

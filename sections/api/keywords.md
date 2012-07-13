@@ -5,7 +5,7 @@ This set of calls let the application to associate/dissociate more
 keywords with itself. All necessary checks are performed automatically
 to avoid conflicts.
 
-Validate Keyword `(validate_keyword)`
+Validate keyword `(validate_keyword)`
 -------------------------------------
 
 Checks a keyword for validity and uniqueness.
@@ -22,7 +22,7 @@ Checks a keyword for validity and uniqueness.
     -   `errors` - optional array of keyword-related error messages. If
         this element isn’t present, the operation was successful.
 
-Associate Keyword `(associate_keyword)`
+Associate keyword `(associate_keyword)`
 ---------------------------------------
 
 Associates the keyword with the application.
@@ -46,7 +46,7 @@ Associates the keyword with the application.
         format etc). If this element isn’t present, the operation was
         successful.
 
-Dissociate Keyword `(dissociate_keyword)`
+Dissociate keyword `(dissociate_keyword)`
 -----------------------------------------
 
 Breaks the link between the keyword and the application.

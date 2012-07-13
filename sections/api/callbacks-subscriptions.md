@@ -7,7 +7,7 @@ messages related to the subscription cycle, such as `STOP`, `SUB`, `Y` and
 others. In order to still let the application know and react to
 subscription/cancellation events, we provide convenient callbacks.
 
-Subscription Created `(subscription_created)`
+Subscription created `(subscription_created)`
 ---------------------------------------------
 
 This callback is performed when a new subscription is created. The
@@ -28,7 +28,7 @@ Tags can contain: **spaces, letters, digits, ’-’ and ‘\_’ characters**.
 -   Comma-separated list of tags to assign to the corresponding
     subscription record
 
-Subscription Canceled `(subscription_canceled)`
+Subscription canceled `(subscription_canceled)`
 -----------------------------------------------
 
 This is invoked when a user decides to unsubscribe from the application.

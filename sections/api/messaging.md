@@ -1,7 +1,7 @@
 Messaging
 =========
 
-Send Message `(send_message)`
+Send message `(send_message)`
 -----------------------------
 
 If an application needs to send a message to a certain phone number, it uses this call. The message can be of arbitrary size. If it doesn’t fit into the standard message size (160 characters), the message will be broken into several parts automatically, like this:
@@ -15,31 +15,31 @@ the date (`on` field) may vary from very strict `10/12/2008 12:55AM —
 0500` to the relaxed `Tuesday 9 1:15PM`. If the timezone isn’t
 specified, then `EST (GMT-5)` is assumed.
 
-### Split Modes
+### Split modes
 
 When message breaking is necessary, it can be performed in one of three
 predefined ways. The way can be chosen on per-application basis and is
 set in the Application preferences on the Service Layer side.
 
--   **Character Boundary** - the message will be split in part without
+-   **Character boundary** - the message will be split in part without
     looking for gaps between the words and the ends of sentences. It’s
     the most compact way of breaking the messages that ensures the
     minimal number of parts being sent.
 
--   **Word Boundary** - the message text is analyzed for the gaps between
+-   **Word boundary** - the message text is analyzed for the gaps between
     the words and split so that no word is broken unless the message
     becomes severely under-filled (more than a half of the message is
     empty). In this case the Character Boundary mode is used to fill the
     rest of the part and the operation switches back to normal Word
     Boundary operation for the next part.
 
--   **Sentence Boundary** - the message is broken into parts preferably on
+-   **Sentence boundary** - the message is broken into parts preferably on
     the sentence edges which are (commas, exclamation and question
     marks, and line breaks). Again if the message appears to be
     under-filled, the mode is switched to the Word Boundary and if even
     this doesn’t help, it is lowered to the Character Boundary.
 
-### Test Number
+### Test number
 
 Phone numbers which start with `555` are used for testing purposes.
 Messages to these numbers will not be sent to a real phone number.
@@ -76,7 +76,7 @@ can be used for testing.
         -   `-3` -- if phone is being flooded reached the limit of
             messages for a configured period of time for this app
 
-Send Messages `(send_messages)`
+Send messages `(send_messages)`
 -------------------------------
 
 Sometimes you need to send several slightly different messages to
@@ -120,7 +120,7 @@ remaining.`, while the phone number `9876543210` will receive `Hello Mary. You h
         -   `-2` -- if phone number is currently blacklisted
 
 
-Cancel Messages `(cancel_messages)`
+Cancel messages `(cancel_messages)`
 -----------------------------------
 
 This call cancels messages scheduled for future delivery with the
@@ -164,7 +164,7 @@ have numeric values and are as follows:
 
 -   The JSON-formatted map of found message IDs to their statuses
 
-Remove Tag `(remove_tag)`
+Remove tag `(remove_tag)`
 -------------------------
 
 Allows to reuse conversation thread (application number) for

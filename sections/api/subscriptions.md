@@ -1,7 +1,7 @@
 Subscriptions
 =============
 
-Tag Subscribers `(tag_subscribers)`
+Tag subscribers `(tag_subscribers)`
 -----------------------------------
 
 Assigns the list of tags to the list of phone numbers among the
@@ -19,7 +19,7 @@ subscribers of your application.
 -   `HTTP Code 500` and error message in the body
 -   `HTTP Code 200`
 
-Un-tag Subscribers `(untag_subscribers)`
+Un-tag subscribers `(untag_subscribers)`
 ----------------------------------------
 
 Removes the tags in the list from the phone numbers (all or specific, if
@@ -37,7 +37,7 @@ they are given).
 -   `HTTP Code 500` and error message in the body
 -   `HTTP Code 200`
 
-Count Tagged Subscribers `(count_tagged_subscribers)`
+Count tagged subscribers `(count_tagged_subscribers)`
 -----------------------------------------------------
 
 Returns the number of subscribers in each tag.
@@ -52,7 +52,7 @@ Returns the number of subscribers in each tag.
 -   `HTTP Code 500` and error message in the body
 -   `HTTP Code 200` with JSON hash (text/javascript) with tag-count pairs
 
-Send Subscription Message `(send_subscription_message)`
+Send subscription message `(send_subscription_message)`
 -------------------------------------------------------
 
 Sends a message to the application subscribers. The message is split
@@ -91,7 +91,7 @@ other info that you want to save.
 		- `recipient_count` -- number of recipients that received the message
 
 
-Cancel Subscription Messages
+Cancel subscription messages
 ----------------------------
 
 This call cancels subscription messages scheduled for future delivery

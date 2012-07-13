@@ -18,7 +18,7 @@ requires with it. This handler will receive other events as well
 only the parts you need. For details, consult with the Callbacks
 documentation.
 
-Sending Messages to Phones
+Sending messages to phones
 --------------------------
 
 ### Single message to a single number
@@ -72,6 +72,7 @@ your direct query, it can be one of the following values:
 
 Sessions
 --------
+
 ### What is a session and why is it important?
 
 We have one shortcode and several applications. When a message from a
@@ -103,6 +104,7 @@ such as `STOP`.
 
 Keywords
 --------
+
 ### What are keywords?
 
 Traditionally (insofar as SMS has traditions), keywords were the primary
@@ -126,7 +128,6 @@ have keywords, your app will never be matched, and your users will be
 shouting into the ether.
 
 ### What are the `Starts with` and `Matches exactly` modes?
-
 
 `Starts with` mode matches any keywords a user texts in that begin with
 the keyword you associate. For example, if you have a weather
@@ -261,12 +262,12 @@ numbers to assign tags to existing numbers.
 If, at any point you need to remove tags from some numbers on your
 subscriber list, you can use the `untag_subscribers` API call.
 
-Static Responses
+Static responses
 ----------------
 
-### What are Static Responses used for?
+### What are Static responses used for?
 
-Static Responses let you build a basic SMS
+Static responses let you build a basic SMS
 application without writing any code. If all you need is a canned
 responses to a given set of keywords, you can enter them through your
 application ‘edit’ screen and the Service Layer will automatically send
@@ -274,11 +275,11 @@ those back to your users when a matching message arrives. For example,
 if you want to send your card to everyone who sends **Jack** to your
 application, you could write an application that would receive a message
 from the Service Layer, see if it reads **Jack** and respond. But with
-Static Responses, you can simply tell the
+Static responses, you can simply tell the
 Service Layer to send your desired text any time it sees incoming
 message with the text **Jack**.
 
-### When do Static Responses come into play -- or why doesn’t my Static Response work?
+### When do Static responses come into play -- or why doesn’t my Static Response work?
 
 Static Responses are canned responses to
 the known client messages. They work exactly as if the message was sent
@@ -297,7 +298,7 @@ in place , you can simply set up a keyword with an `auto-response`.
 You can find details on how Sessions work in the corresponding
 section.
 
-Customizing Module Messages
+Customizing module messages
 ---------------------------
 
 There are three main modules that work together for the application --
@@ -305,7 +306,7 @@ the *Welcome*, *Help* and *Subscription* modules. Each of them has associated
 messages that can be customized or left blank. We’ll examine them in the
 following sections.
 
-### Welcome Message
+### Welcome message
 
 Every application can be configured to welcome its new users with a
 message. We know when it’s the first time someone texts you and can send
@@ -314,14 +315,14 @@ your own content. Think of this welcome message as an optional
 additional message. Since it’s optional, you can leave it blank if you
 don’t need it.
 
-### Help Message
+### Help message
 
 If your response to **HELP** message never changes, you may want to use our
 next module -- the **Help Module**. It will send an automatic response to
 anyone asking for help. If you leave this message blank, the message
 will be sent to your application as any other message.
 
-### Subscription Messages
+### Subscription messages
 
 Here we have two messages that work only when the Subscription Module is
 enabled:

@@ -19,7 +19,7 @@ to (in case several SL apps report to the same client-side app)
 application in its processing of the callback -- phone numbers, message
 bodies and other parameters.
 
-Implementation on the Client Application side
+Implementation on the client application side
 ---------------------------------------------
 
 Callbacks aren’t required to be implemented. In fact, you can ignore all
@@ -40,7 +40,7 @@ structured responses.
 It’s suggested that you process the callback as fast as possible on the
 client application side to release Service Layer resources.
 
-Incoming Message `(incoming_message)`
+Incoming message `(incoming_message)`
 -------------------------------------
 
 Received when new MO arrives and it’s routed to this client application.
