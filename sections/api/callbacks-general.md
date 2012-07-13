@@ -27,7 +27,7 @@ of them, although this application may be not very useful. We imagine
 that you will want to at least listen to incoming messages through the
 `incoming_message` callback.
 
-### Responses:
+### Responses
 
 Some of callbacks have optional responses expected, such as the list of
 tags to assign to a newly created subscription . The format of the
@@ -35,7 +35,7 @@ response is currently set to the plain text, but later this may be
 changed to the JSON. This step may be required to facilitate rich and
 structured responses.
 
-### Processing:
+### Processing
 
 It’s suggested that you process the callback as fast as possible on the
 client application side to release Service Layer resources.
@@ -58,7 +58,7 @@ has already received the message that was associated with the keyword.
 You may choose to send another message or stay silent to avoid
 duplicates.
 
-### Parameters:
+### Parameters
 
 - `type` -- `incoming_message`
 - `phone_number` -- phone number of a texter
@@ -71,7 +71,7 @@ already responded with the keyword-associated message
 - `carrier_id` -- *optional* -- carrier ID
 - `carrier_name` -- *optional* -- carrier name
 
-### Responses:
+### Responses
 
 -   Empty response not to send anything back to the texter
 -   The message to send
@@ -86,17 +86,17 @@ already responded with the keyword-associated message
         mechanism of transferring control to another application or
         redirecting to itself with a different keyword.
 
-#### Example of JSON response:
+#### Example of JSON response
 
 `{"body":"Switching to another app","close_session":true,"reprocess":"another keyword"}`
 
 After receiving this response, the SL will:
 
-1. Send a message”Switching to another app" as a response to the initial
-MO
-2. Close the session between the app and the phone
+1. Send a message "*Switching to another app*" as a response to the initial
+MO.
+2. Close the session between the app and the phone.
 3. Pretend to receive (will send it to itself) an MO with text "*another
-keyword*" from the same phone
+keyword*" from the same phone.
 
 Delivery report `(delivery_report)`
 -----------------------------------
@@ -106,7 +106,7 @@ immediately), the list of message IDs is returned. Each ID represents
 the part of the original message if it was larger than the maximum
 allowed number of characters in the single SMS message.
 
-### Parameters:
+### Parameters
 
 -   `message_id` -- ID of the message the status of which has changed
 -   `final` -- *boolean* -- `TRUE` if this report is final and no updates are to
@@ -117,6 +117,6 @@ allowed number of characters in the single SMS message.
     -   `2` -- Delivery failed
     -   `4` -- Queued for delivery
 
-### Responses:
+### Responses
 
 -   `Ignored` -- This is a one-way fire and forget notification.

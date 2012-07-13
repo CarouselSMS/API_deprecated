@@ -31,8 +31,8 @@ There’s an API URL that is used at all times to which the name of the
 operation is appended:
 
 ### URL:
-<code>http://sl.holmesmobile.com/api/\<operation></code> or
-<code>https://sl.holmesmobile.com/api/\<operation></code> (SSL support)
+`http://sl.holmesmobile.com/api/<operation>` or
+`https://sl.holmesmobile.com/api/<operation>` (SSL support)
 
 Data Types
 ----------

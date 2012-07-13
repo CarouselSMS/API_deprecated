@@ -1,59 +1,59 @@
 Subscriptions
 =============
 
-Tag Subscribers (tag\_subscribers)
-----------------------------------
+Tag Subscribers `(tag_subscribers)`
+-----------------------------------
 
 Assigns the list of tags to the list of phone numbers among the
 subscribers of your application.
 
-### Parameters:
+### Parameters
 
 -   `api_key` -- *string* -- API key of the application
 -   `tags` -- *string* -- comma-separated list of tags
 -   `phone_numbers` -- *string* -- comma-separated list of phone numbers with
     or without the country code
 
-### Responses:
+### Responses
 
 -   `HTTP Code 500` and error message in the body
 -   `HTTP Code 200`
 
-Un-tag Subscribers (untag\_subscribers)
----------------------------------------
+Un-tag Subscribers `(untag_subscribers)`
+----------------------------------------
 
 Removes the tags in the list from the phone numbers (all or specific, if
 they are given).
 
-### Parameters:
+### Parameters
 
 -   `api_key` -- *string* -- API key of the application
 -   `tags` -- *string* -- comma-separated list of tags
 -   `phone_numbers` -- *string, optional* -- comma-separated list of phone
     numbers with or without the country code
 
-### Responses:
+### Responses
 
 -   `HTTP Code 500` and error message in the body
 -   `HTTP Code 200`
 
-Count Tagged Subscribers (count\_tagged\_subscribers)
----------------------------------------
+Count Tagged Subscribers `(count_tagged_subscribers)`
+-----------------------------------------------------
 
 Returns the number of subscribers in each tag.
 
-### Parameters:
+### Parameters
 
 -   `api_key` -- *string* -- API key of the application
 -   `tags` -- *string* -- comma-separated list of tags
 
-### Responses:
+### Responses
 
 -   `HTTP Code 500` and error message in the body
 -   `HTTP Code 200` with JSON hash (text/javascript) with tag-count pairs
 
-Send Subscription Message (send\_subscription\_message)
----------------------------------------------
+Send Subscription Message `(send_subscription_message)`
+-------------------------------------------------------
 
 Sends a message to the application subscribers. The message is split
 into multiple parts using the preferred application splitting mode
@@ -74,7 +74,7 @@ during the day (currently every two hours). The format of the date may
 vary from very strict `10/12/2008 12:55AM -0500` to the relaxed
 `Tuesday 9 1:15PM`. If the timezone isn’t specified, then `EST` is assumed.
 
-### Parameters:
+### Parameters
 
 - `api_key` -- *string* -- mandatory API Key.
 - `body` -- *string* -- message text.
@@ -83,7 +83,7 @@ vary from very strict `10/12/2008 12:55AM -0500` to the relaxed
 - `description` -- *string, optional* -- description of this message or any
 other info that you want to save.
 
-### Responses:
+### Responses
 
 - `HTTP Code 500` and error message in the body
 - `HTTP Code 200` with JSON hash (text/javascript)
@@ -103,12 +103,12 @@ messages at any moment.
 Please note that this call is for scheduled **subscription** messages.
 Use the `cancel_messages` call for regular future messages cancellation.
 
-### Parameters:
+### Parameters
 
 -   `message_ids` -- *string* -- comma-separated list of scheduled
     subscription message IDs
 
-### Responses:
+### Responses
 
 -   `HTTP Code 500` and error message in the body
 -   `HTTP Code 200`

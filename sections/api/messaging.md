@@ -15,7 +15,7 @@ the date (`on` field) may vary from very strict `10/12/2008 12:55AM —
 0500` to the relaxed `Tuesday 9 1:15PM`. If the timezone isn’t
 specified, then `EST (GMT-5)` is assumed.
 
-### Split Modes:
+### Split Modes
 
 When message breaking is necessary, it can be performed in one of three
 predefined ways. The way can be chosen on per-application basis and is
@@ -39,7 +39,7 @@ set in the Application preferences on the Service Layer side.
     under-filled, the mode is switched to the Word Boundary and if even
     this doesn’t help, it is lowered to the Character Boundary.
 
-### Test Number:
+### Test Number
 
 Phone numbers which start with `555` are used for testing purposes.
 Messages to these numbers will not be sent to a real phone number.
@@ -47,7 +47,7 @@ Messages to these numbers will not be sent to a real phone number.
 There's no charge for sending message to these numbers, which
 can be used for testing.
 
-#### Parameters:
+### Parameters
 
 -   `api_key` -- *string* -- API key of the application
 -   `phone_number` or `phone_numbers` -- *string* -- destination phone number
@@ -63,7 +63,7 @@ can be used for testing.
 -   `tag` -- *string, optional* -- conversation thread identifier. Messages
     with the same tag will be sent via one DID.
 
-#### Responses:
+### Responses
 
 -   `HTTP Code 500` and error message in the body
 -   `HTTP Code 200`
@@ -91,7 +91,7 @@ use as the basis for your messages and then, for each number, you need only prov
 The phone number `0123456789` wil receive `Hello John. You have 5 credits
 remaining.`, while the phone number `9876543210` will receive `Hello Mary. You have 10 credits remaining.`
 
-### Parameters:
+### Parameters
 
 -   `api_key` -- *string* -- API key of the application
 -   `template` -- *string* -- template string to use for generation of
@@ -109,7 +109,7 @@ remaining.`, while the phone number `9876543210` will receive `Hello Mary. You h
 -   `tag` -- *string, optional* -- conversation thread identifier. Messages
     with the same tag will be sent via one DID.
 
-### Responses:
+### Responses
 
 -   `HTTP Code 500` and error message in the body
 -   `HTTP Code 200`
@@ -118,6 +118,7 @@ remaining.`, while the phone number `9876543210` will receive `Hello Mary. You h
         possible in these cases:
         -   `-1` -- if phone number was invalid
         -   `-2` -- if phone number is currently blacklisted
+
 
 Cancel Messages `(cancel_messages)`
 -----------------------------------
@@ -132,12 +133,12 @@ Please note that this call can cancel only non-subscription messages. To
 cancel subscription-level messages, use the `cancel_subscription_messages`
 call.
 
-#### Parameters:
+### Parameters
 
 -   `message_ids` -- *string* -- comma-separated list of scheduled message
     IDs
 
-#### Responses:
+### Responses
 
 -   `HTTP Code 500` and error message in the body
 -   `HTTP Code 200`
@@ -155,11 +156,11 @@ have numeric values and are as follows:
 -   `1` -- Delivered to the user phone
 -   `2` -- Not delivered to the user phone (failed)
 
-### Parameters:
+### Parameters
 
 -   `message_ids` -- *string* -- comma-separated list of message IDs (either scheduled or not) returned from the `send_message` call
 
-### Responses:
+### Responses
 
 -   The JSON-formatted map of found message IDs to their statuses
 
@@ -170,13 +171,13 @@ Allows to reuse conversation thread (application number) for
 communication with other recipient using the same tag, frees application
 number for new uses.
 
-### Parameters:
+### Parameters
 
 - `api_key` -- *string* -- API key of the application
 - `phone_number` -- *string* -- phone number of message recipient.
 - `tag` -- *string* -- conversation thread identifier.
 
-### Responses:
+### Responses
 
 - `HTTP Code 500` and error message in the body
 - `HTTP Code 200`

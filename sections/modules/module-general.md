@@ -1,33 +1,36 @@
+Modules - general
+=================
+
 Basics
-======
+------
 
 Modules let developers to add more standard processing options to the
 service layer. Modules are called when an incoming message arrives to
-the application, and are expected to return either *nil* (if they don’t
+the application, and are expected to return either `nil` (if they don’t
 know how to handle the message), or the hash with the following fields:
 
--   **body** - (string) the response message to return to the cell phone
+-   `body` -- *string* -- the response message to return to the cell phone
     (empty - no response)
--   **free** - (boolean) TRUE to send the response through the FTEU
-    gateway
+-   `free` -- *string* -- `TRUE` to send the response through the FTEU
+    gateway (this is used only in cases where FTEU messaging is available; please contact us if interested)
 
-Modules are organized in the chain (see App\#MODULES), and are processed
+Modules are organized in the chain, and are processed
 in this order. If the first module returns the result, the second listed
 isn’t called and even not instantiated.
 
-![]({{Processing_MO__modules_.png}})
+![Processing MO modules](https://github.com/RecessMobile/API/raw/master/images/Processing_MO__modules_.png)
 
 The example of a module is the subscription processing. Given that many
 applications share this functionality, we extract the processing of
-keywords “SUB”, “Y”, “STOP” in a module and place it before the “Client
-App Call” module so that if one of these keywords arrive, we can process
+keywords **SUB**, **Y**, **STOP** in a module and place it before the *Client
+App Call* module so that if one of these keywords arrive, we can process
 them ourselves on the Service Layer instead of sending the request to
 the client application.
 
 You can have any number of modules.
 
 Configuration
-=============
+-------------
 
 Sometimes modules will require different configuration from application
 to application. It’s suggested to have a separate table for

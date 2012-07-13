@@ -5,29 +5,29 @@ This set of calls let the application to associate\dissociate more
 keywords with itself. All necessary checks are performed automatically
 to avoid conflicts.
 
-Validate Keyword (validate\_keyword)
-------------------------------------
+Validate Keyword `(validate_keyword)`
+-------------------------------------
 
 Checks a keyword for validity and uniqueness.
 
-### Parameters:
+### Parameters
 
 -   `api_key` -- *string* -- API key of the application
 -   `keyword` -- *string* -- keyword
 -   `mode` -- *integer* -- `0` -- match exactly (default), `1` -- starts with
 
-### Responses:
+### Responses
 
 -   `HTTP Code 200` with JSON hash (text/javascript):
     -   `errors` - optional array of keyword-related error messages. If
         this element isn’t present, the operation was successful.
 
-Associate Keyword (associate\_keyword)
---------------------------------------
+Associate Keyword `(associate_keyword)`
+---------------------------------------
 
 Associates the keyword with the application.
 
-### Parameters:
+### Parameters
 
 -   `api_key` -- *string* -- API key of the application
 -   `keyword` -- *string* -- keyword
@@ -37,7 +37,7 @@ Associates the keyword with the application.
 -   `auto_subscribe_tags` -- *string, optional* -- comma-separated list of
     tags to assign to the newly created auto-subscription
 
-### Responses:
+### Responses
 
 -   `HTTP Code 500` and error message in the body
 -   `HTTP Code 200` with JSON hash (text/javascript):
@@ -46,17 +46,17 @@ Associates the keyword with the application.
         format etc). If this element isn’t present, the operation was
         successful.
 
-Dissociate Keyword (dissociate\_keyword)
-----------------------------------------
+Dissociate Keyword `(dissociate_keyword)`
+-----------------------------------------
 
 Breaks the link between the keyword and the application.
 
-### Parameters:
+### Parameters
 
 -   `api_key` -- *string* -- API key of the application
 -   `keyword` -- *string* -- keyword
 
-### Responses:
+### Responses
 
 -   `HTTP Code 500` and error message in the body
 -   `HTTP Code 200` with JSON hash (text/javascript):

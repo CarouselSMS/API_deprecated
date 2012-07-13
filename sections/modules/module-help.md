@@ -1,4 +1,7 @@
-Help module listens for the HELP keywords to applications and makes sure
+Module - help
+=============
+
+The help module listens for the HELP keywords to applications and makes sure
 that the response the application sends is delivered as Free To End User
 (FTEU) message.
 

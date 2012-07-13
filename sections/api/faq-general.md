@@ -264,7 +264,7 @@ subscriber list, you can use the `untag_subscribers` API call.
 Static Responses
 ----------------
 
-### What are `static responses` used for?
+### What are Static Responses used for?
 
 Static Responses let you build a basic SMS
 application without writing any code. If all you need is a canned
@@ -326,9 +326,9 @@ will be sent to your application as any other message.
 Here we have two messages that work only when the Subscription Module is
 enabled:
 
-- `Subscribe message` -- used to confirm that the user has been subscribed
+- **Subscribe message** -- used to confirm that the user has been subscribed
 successfully.
--- `Stop message` -- used to confirm the successful unsubscribing.
+- **Stop message** -- used to confirm the successful unsubscribing.
 
 Customize these messages to include your store name, and links to your
 web site.

@@ -1,5 +1,11 @@
+Module - welcome
+================
+
 Welcome module is intended to send Welcome responses to the first-time
 users of SMSCs or applications.
+
+How it works
+------------
 
 This module works on two levels: SMSCs and Applications. In most cases,
 responses belong to a specific application and they will be passing
@@ -11,8 +17,9 @@ This module doesn’t stop the processing of the message. It sends the
 welcome message (if entered) in addition to the further processing which
 may or may not result in any additional messages.
 
-Configuration:
+Configuration
+--------------
 
--   Welcome text message - the message to send. If the message is not
+**Welcome text message** -- the message to send. If the message is not
     given, the module is inactive. The message field can be found on the
     application and SMSC edit page in the administrative console.
