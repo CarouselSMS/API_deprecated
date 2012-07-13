@@ -18,15 +18,15 @@ SL.
 Modules
 -------
 
-- ### [General](https://github.com/RecessMobile/API/tree/master/sections/api/module-general.md)
+- ### [General](https://github.com/RecessMobile/API/tree/master/sections/modules/module-general.md)
 
-- ### [Help](https://github.com/RecessMobile/API/tree/master/sections/api/module-help.md)
+- ### [Help](https://github.com/RecessMobile/API/tree/master/sections/modules/module-help.md)
 
-- ### [Static Responses](https://github.com/RecessMobile/API/tree/master/sections/api/module-static-respones.md)
+- ### [Static Responses](https://github.com/RecessMobile/API/tree/master/sections/modules/module-static-respones.md)
 
-- ### [Subscriptions](https://github.com/RecessMobile/API/tree/master/sections/api/module-subscriptions.md)
+- ### [Subscriptions](https://github.com/RecessMobile/API/tree/master/sections/modules/module-subscriptions.md)
 
-- ### [Welcome](https://github.com/RecessMobile/API/tree/master/sections/api/module-welcome.md)
+- ### [Welcome](https://github.com/RecessMobile/API/tree/master/sections/modules/module-welcome.md)
 
 
 Callbacks
