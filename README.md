@@ -4,31 +4,6 @@ Service Layer API documentation
 API documentation for Service Layer API.
 
 
-Where do I start?
------------------
-
-Want to get started with API integration? Here's a quick check list:
-
-1. [Register your app](http://integrate.37signals.com/apps/new) or [update your already registered app](http://integrate.37signals.com/) to access more products.
-2. Review the [brand guidelines](#brand-guidelines) for rules on naming and marketing your app
-3. Read up on how to [authenticate your app](#authentication) with our products.
-4. Peruse the [API docs](#products) for the product you need to work with
-5. Join the [API mailing list](http://groups.google.com/group/37signals-api) to talk to others using the APIs and give us feedback!
-
-
-API Documentation
------------------
-
-Need to look up the API documentation for a product? There's a repo for each:
-
-* [Basecamp API](https://github.com/37signals/bcx-api)
-* [Basecamp Classic API](https://github.com/37signals/basecamp-classic-api)
-* [Highrise API](https://github.com/37signals/highrise-api)
-* [Campfire API](https://github.com/37signals/campfire-api)
-* [Backpack API](https://github.com/37signals/backpack-api)
-* [System Status API](http://status.37signals.com/api)
-
-
 API Keys
 --------
 
@@ -43,7 +18,7 @@ SL.
 Definitions
 -----------
 
-MO, MT, SMSC, DID
+MO, MT, SMSC, DID coming...
 
 Calls
 -----
