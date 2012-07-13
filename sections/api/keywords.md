@@ -1,7 +1,7 @@
 Keywords
 ========
 
-This set of calls let the application to associate\dissociate more
+This set of calls let the application to associate/dissociate more
 keywords with itself. All necessary checks are performed automatically
 to avoid conflicts.
 
