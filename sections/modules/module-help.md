@@ -1,13 +1,9 @@
 Module - help
 =============
 
-The help module listens for the HELP keywords to applications and makes sure
-that the response the application sends is delivered as Free To End User
-(FTEU) message.
+The Help module listens for help-related keywords sent to an application. When possible, we send replies as Free To End User (FTEU) messages.
 
-The module doesn’t do anything besides that. It delegates the processing
-to the client application, and wraps the response in the correct
-structure.
+The module doesn’t do anything besides that. It delegates the processing to your application, and wraps the response in the proper structure.
 
 Other modules
 -------------
