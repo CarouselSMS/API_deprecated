@@ -119,6 +119,6 @@ Definitions
 -  **DID** ([**D**irect **I**nward **D**ialing](http://en.wikipedia.org/wiki/Direct_inward_dialing)): the term we use for virtual numbers or long codes. These are 10-digit phone numbers in the United States.
 -  **SMSC** ([**S**hort **M**essage **S**ervice **C**enter](http://en.wikipedia.org/wiki/Short_message_service_center)): the point in the stack which stores and delivers text messages. In our case, we use internal SMSCs which can be made up of one DID or many. Multiple DIDs allow for threaded conversations and higher throughput.
 
-[FAQ](https://github.com/RecessMobile/API/tree/master/sections/api/faq-general.md)
+[FAQ](https://github.com/RecessMobile/API/tree/master/FAQ.md)
 ----
 
