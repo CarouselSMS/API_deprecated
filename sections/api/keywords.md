@@ -1,9 +1,7 @@
 Keywords
 ========
 
-This set of calls let the application to associate/dissociate more
-keywords with itself. All necessary checks are performed automatically
-to avoid conflicts.
+This set of calls allows an application to associate/dissociate keywords with itself. All necessary checks are performed automatically to avoid conflicts.
 
 Other types of API calls
 ------------------------
@@ -53,7 +51,7 @@ Associates the keyword with the application.
 -   `HTTP Code 200` with JSON hash (text/javascript):
     -   `errors` - optional array of error messages, in case of any
         problems with the keyword registration (duplicates, incorrect
-        format etc). If this element isn’t present, the operation was
+        format, etc.). If this element isn’t present, the operation was
         successful.
 
 Dissociate keyword `(dissociate_keyword)`
@@ -70,7 +68,7 @@ Breaks the link between the keyword and the application.
 
 -   `HTTP Code 500` and error message in the body
 -   `HTTP Code 200` with JSON hash (text/javascript):
-    -   `errors` - optional array of error messages. For example, when the
+    -   `errors` - optional array of error messages. For example, if the
         keyword belongs to a different application.
 
 
