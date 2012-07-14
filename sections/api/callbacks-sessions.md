@@ -1,6 +1,9 @@
 Callbacks - sessions
 ====================
 
+These are callbacks received around sessions.
+The [FAQ](https://github.com/RecessMobile/API/tree/master/FAQ.md) has more details on the concept of sessions.
+
 Other callbacks sections
 ------------------------
 
@@ -11,9 +14,7 @@ Other callbacks sections
 Session closed `(session_closed)`
 ---------------------------------
 
-This callback is performed when the user session with an application is
-closed for any reason. It can be the session expiry or the explicit
-command from the user.
+This callback is performed when a user session with an application is closed for any reason. It can be the result of a session expiration or due to an explicit command from a user.
 
 ### Parameters
 
