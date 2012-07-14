@@ -1,6 +1,8 @@
 Modules - general
 =================
 
+The Service Layer uses various modules to save you the trouble of developing common pieces SMS business logic.
+
 Modules
 -------
 
@@ -16,41 +18,26 @@ Modules
 Basics
 ------
 
-Modules let developers to add more standard processing options to the
-service layer. Modules are called when an incoming message arrives to
-the application, and are expected to return either `nil` (if they don’t
-know how to handle the message), or the hash with the following fields:
+Modules let developers to add more standard processing options to the Service Layer. Modules are called whenever an incoming message arrives to the application. The modules are expected to return either `nil` if they don’t
+know how to handle the message, or a hash with the following fields:
 
--   `body` -- *string* -- the response message to return to the cell phone
-    (empty - no response)
+-   `body` -- *string* -- the response message to return to the cell phone.
+    - *empty* -- no response
 -   `free` -- *string* -- `TRUE` to send the response through the FTEU
-    gateway (this is used only in cases where FTEU messaging is available; please contact us if interested)
+    gateway
+    - This is used only in cases where FTEU messaging is available. Please contact us if interested.
 
-Modules are organized in the chain, and are processed
-in this order. If the first module returns the result, the second listed
-isn’t called and even not instantiated.
+Modules are organized in a chain, and are processed in sequence.
 
 ![Processing MO modules](https://github.com/RecessMobile/API/raw/master/images/Processing_MO__modules_.png)
 
-The example of a module is the subscription processing. Given that many
-applications share this functionality, we extract the processing of
-keywords **SUB**, **Y**, **STOP** in a module and place it before the *Client
-App Call* module so that if one of these keywords arrive, we can process
-them ourselves on the Service Layer instead of sending the request to
-the client application.
+If the first module returns a result, the second listed isn’t called nor instantiated.
 
-You can have any number of modules.
+One example of a module is in subscription processing. Given that many applications share this functionality, we extract the processing of keywords **SUB**, **Y**, **STOP** in a module and place it before the *Client
+App Call* module. Then, if one of these keywords arrives, we can process them on the Service Layer instead of sending the request to your application.
 
-Configuration
--------------
+An application can use any number of modules.
 
-Sometimes modules will require different configuration from application
-to application. It’s suggested to have a separate table for
-configuration options for a specific module and link it to the
-application table through the 1-to-1 relationship. However, with the
-potential growth of modules the approach may be overlooked in favor of
-an module settings table that will hold key/value rows suitable for the
-use by any modules in a unified way.
 
 &#8617; [Home](https://github.com/RecessMobile/API)
 --------------
