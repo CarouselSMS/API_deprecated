@@ -1,6 +1,16 @@
 Subscriptions
 =============
 
+Other types of API calls
+------------------------
+
+- #### [Dealing with keywords](https://github.com/RecessMobile/API/tree/master/sections/api/keywords.md)
+
+- #### [Sending messages](https://github.com/RecessMobile/API/tree/master/sections/api/messaging.md)
+
+- #### [Managing sessions](https://github.com/RecessMobile/API/tree/master/sections/api/sessions.md)
+
+
 Tag subscribers `(tag_subscribers)`
 -----------------------------------
 

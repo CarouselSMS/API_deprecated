@@ -6,6 +6,13 @@ their Gateway URL. There are difference callbacks that let the
 application know of certain events with the user sessions, subscriptions
 and more.
 
+Other callbacks sections
+------------------------
+
+- ### [Sessions](https://github.com/RecessMobile/API/tree/master/sections/api/callbacks-sessions.md)
+
+- ### [Subscription-related callbacks](https://github.com/RecessMobile/API/tree/master/sections/api/callbacks-subscriptions.md)
+
 Format
 ------
 

@@ -1,6 +1,12 @@
 Callbacks - sessions
 ====================
 
+Other callbacks sections
+------------------------
+
+- ### [General information and introduction to callbacks](https://github.com/RecessMobile/API/tree/master/sections/api/callbacks-general.md)
+
+- ### [Subscription-related callbacks](https://github.com/RecessMobile/API/tree/master/sections/api/callbacks-subscriptions.md)
 
 Session closed `(session_closed)`
 ---------------------------------

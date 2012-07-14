@@ -13,6 +13,18 @@ Subscription Configuration on per-application basis.
 All subscribers are registered in the Subscriptions table and can be
 tagged by the client application for the purpose of grouping.
 
+Other modules
+-------------
+
+- ### [General information and introduction](https://github.com/RecessMobile/API/tree/master/sections/modules/module-general.md)
+
+- ### [Help module](https://github.com/RecessMobile/API/tree/master/sections/modules/module-help.md)
+
+- ### [Static Responses](https://github.com/RecessMobile/API/tree/master/sections/modules/module-static-respones.md)
+
+- ### ["Welcome" module](https://github.com/RecessMobile/API/tree/master/sections/modules/module-welcome.md)
+
+
 Configuration
 -------------
 

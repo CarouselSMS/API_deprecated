@@ -17,6 +17,18 @@ be registered through the application (or SMSC) details page. Every
 message can have the Free flag set which means that the response has to
 be sent as an FTEU message.
 
+Other modules
+-------------
+
+- ### [General information and introduction](https://github.com/RecessMobile/API/tree/master/sections/modules/module-general.md)
+
+- ### [Help module](https://github.com/RecessMobile/API/tree/master/sections/modules/module-help.md)
+
+- ### [Subscriptions](https://github.com/RecessMobile/API/tree/master/sections/modules/module-subscriptions.md)
+
+- ### ["Welcome" module](https://github.com/RecessMobile/API/tree/master/sections/modules/module-welcome.md)
+
+
 Configuration
 -------------
 

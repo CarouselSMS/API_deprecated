@@ -1,6 +1,16 @@
 Messaging
 =========
 
+Other types of API calls
+------------------------
+
+- #### [Dealing with keywords](https://github.com/RecessMobile/API/tree/master/sections/api/keywords.md)
+
+- #### [Managing sessions](https://github.com/RecessMobile/API/tree/master/sections/api/sessions.md)
+
+- #### [Handling subscriptions](https://github.com/RecessMobile/API/tree/master/sections/api/subscriptions.md)
+
+
 Send message `(send_message)`
 -----------------------------
 

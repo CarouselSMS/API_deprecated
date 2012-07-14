@@ -1,6 +1,16 @@
 Sessions
 ========
 
+Other types of API calls
+------------------------
+
+- #### [Dealing with keywords](https://github.com/RecessMobile/API/tree/master/sections/api/keywords.md)
+
+- #### [Sending messages](https://github.com/RecessMobile/API/tree/master/sections/api/messaging.md)
+
+- #### [Handling subscriptions](https://github.com/RecessMobile/API/tree/master/sections/api/subscriptions.md)
+
+
 Close sessions `(close_sessions)`
 ---------------------------------
 

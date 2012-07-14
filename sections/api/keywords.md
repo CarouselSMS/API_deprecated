@@ -5,6 +5,16 @@ This set of calls let the application to associate/dissociate more
 keywords with itself. All necessary checks are performed automatically
 to avoid conflicts.
 
+Other types of API calls
+------------------------
+
+- #### [Sending messages](https://github.com/RecessMobile/API/tree/master/sections/api/messaging.md)
+
+- #### [Managing sessions](https://github.com/RecessMobile/API/tree/master/sections/api/sessions.md)
+
+- #### [Handling subscriptions](https://github.com/RecessMobile/API/tree/master/sections/api/subscriptions.md)
+
+
 Validate keyword `(validate_keyword)`
 -------------------------------------
 

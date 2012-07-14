@@ -1,6 +1,18 @@
 Modules - general
 =================
 
+Modules
+-------
+
+- ### [Help module](https://github.com/RecessMobile/API/tree/master/sections/modules/module-help.md)
+
+- ### [Static Responses](https://github.com/RecessMobile/API/tree/master/sections/modules/module-static-respones.md)
+
+- ### [Subscriptions](https://github.com/RecessMobile/API/tree/master/sections/modules/module-subscriptions.md)
+
+- ### ["Welcome" module](https://github.com/RecessMobile/API/tree/master/sections/modules/module-welcome.md)
+
+
 Basics
 ------
 

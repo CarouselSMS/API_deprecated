@@ -7,6 +7,13 @@ messages related to the subscription cycle, such as `STOP`, `SUB`, `Y` and
 others. In order to still let the application know and react to
 subscription/cancellation events, we provide convenient callbacks.
 
+Other callbacks sections
+------------------------
+
+- ### [General information and introduction to callbacks](https://github.com/RecessMobile/API/tree/master/sections/api/callbacks-general.md)
+
+- ### [Sessions](https://github.com/RecessMobile/API/tree/master/sections/api/callbacks-sessions.md)
+
 Subscription created `(subscription_created)`
 ---------------------------------------------
 
