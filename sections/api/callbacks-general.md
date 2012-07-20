@@ -10,6 +10,8 @@ Other callbacks sections
 
 - ### [Subscription-related callbacks](https://github.com/RecessMobile/API/tree/master/sections/api/callbacks-subscriptions.md)
 
+- ### [Notification callbacks](https://github.com/RecessMobile/API/tree/master/sections/api/callbacks-notifications.md)
+
 Format
 ------
 

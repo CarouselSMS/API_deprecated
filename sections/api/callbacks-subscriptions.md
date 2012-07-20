@@ -12,6 +12,8 @@ Other callbacks sections
 
 - ### [Sessions](https://github.com/RecessMobile/API/tree/master/sections/api/callbacks-sessions.md)
 
+- ### [Notification callbacks](https://github.com/RecessMobile/API/tree/master/sections/api/callbacks-notifications.md)
+
 Subscription created `(subscription_created)`
 ---------------------------------------------
 
