@@ -43,7 +43,7 @@ The following links provide detailed documentation on callbacks.
 
 - ### [Subscription-related callbacks](https://github.com/RecessMobile/API/tree/master/sections/api/callbacks-subscriptions.md)
 
-- ### [Notification callbacks](sections/api/callbacks-notifications.md)
+- ### [Notification callbacks](https://github.com/RecessMobile/API/tree/master/sections/api/callbacks-notifications.md)
 
 Calls
 -----
