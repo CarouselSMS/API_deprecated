@@ -6,7 +6,7 @@ For your application to know about and respond to misc application events, we pr
 Other callbacks sections
 ------------------------
 
-- ### [General information and introduction to callbacks](https://github.com/RecessMobile/API/tree/master/sections/api/callbacks-general.md)
+- [General information and introduction to callbacks](https://github.com/RecessMobile/API/tree/master/sections/api/callbacks-general.md)
 
 Phone blacklisted `(phone_blacklisted)`
 ---------------------------------------------
