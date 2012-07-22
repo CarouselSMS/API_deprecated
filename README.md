@@ -56,8 +56,8 @@ There’s an API URL that is used at all times to which the name of the
 operation is appended:
 
 ### URL
-`http://sl.recessmobile.com/api/<operation>` or
-`https://sl.recessmobile.com/api/<operation>` (SSL support)
+`http://sl.carouselsms.com/api/<operation>` or
+`https://sl.carouselsms.com/api/<operation>` (SSL support)
 
 ### Types of calls
 
