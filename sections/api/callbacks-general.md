@@ -6,11 +6,11 @@ Client applications receive callbacks from the Service Layer through their Gatew
 Other callbacks sections
 ------------------------
 
-- ### [Sessions](https://github.com/RecessMobile/API/tree/master/sections/api/callbacks-sessions.md)
+- ### [Sessions](https://github.com/CarouselSMS/API/tree/master/sections/api/callbacks-sessions.md)
 
-- ### [Subscription-related callbacks](https://github.com/RecessMobile/API/tree/master/sections/api/callbacks-subscriptions.md)
+- ### [Subscription-related callbacks](https://github.com/CarouselSMS/API/tree/master/sections/api/callbacks-subscriptions.md)
 
-- ### [Notification callbacks](https://github.com/RecessMobile/API/tree/master/sections/api/callbacks-notifications.md)
+- ### [Notification callbacks](https://github.com/CarouselSMS/API/tree/master/sections/api/callbacks-notifications.md)
 
 Format
 ------
@@ -106,5 +106,5 @@ When the message is sent with `send_message` (either in the future or immediatel
 -   `Ignored` -- This is a one-way fire and forget notification.
 
 
-&#8617; [Home](https://github.com/RecessMobile/API)
+&#8617; [Home](https://github.com/CarouselSMS/API)
 --------------

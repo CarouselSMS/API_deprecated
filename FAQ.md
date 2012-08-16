@@ -11,22 +11,22 @@ General
 For an application to accept incoming messages, it needs a gateway URL. You can register this URL on your application page. We'll direct all incoming messages to that address. The response will be in the form of a POST request containing all of the message details. You can even respond with a message body to send back to that phone as a reply if you’d like.
 
 So you don’t need to poll our system for new messages. Simply write a handler that accepts POST requests and do whatever your business logic requires with it. This handler will receive other events as well (subscriptions, delivery reports, etc.). You're free to implement only the parts you need. For details, check the [Callbacks
-documentation](https://github.com/RecessMobile/API/blob/master/sections/api/callbacks-general.md).
+documentation](https://github.com/CarouselSMS/API/blob/master/sections/api/callbacks-general.md).
 
 Sending messages to phones
 --------------------------
 
 ### Single message to a single number
 
-When you want to deliver a message to a single phone number, use the [`send_message` API call](https://github.com/RecessMobile/API/blob/master/sections/api/messaging.md), specifying the message body, phone number, whether a response is expected, and, if you'd like the message sent later, specify the time of delivery.
+When you want to deliver a message to a single phone number, use the [`send_message` API call](https://github.com/CarouselSMS/API/blob/master/sections/api/messaging.md), specifying the message body, phone number, whether a response is expected, and, if you'd like the message sent later, specify the time of delivery.
 
 ### Single message to several numbers
 
-When you have something to say to several phone numbers, you can use the [`send_message` API call](https://github.com/RecessMobile/API/blob/master/sections/api/messaging.md) as you would with a the single phone number (see above). But instead of including only one number, specify all of the numbers you'd like the message delivered to as a comma-separated list.
+When you have something to say to several phone numbers, you can use the [`send_message` API call](https://github.com/CarouselSMS/API/blob/master/sections/api/messaging.md) as you would with a the single phone number (see above). But instead of including only one number, specify all of the numbers you'd like the message delivered to as a comma-separated list.
 
 ### Custom messages to several numbers
 
-When you want to send a personalized message that follows a common pattern to several numbers, you can do that with the [`send_messages` API call](https://github.com/RecessMobile/API/blob/master/sections/api/messaging.md). Outline the template, like `"Hello {{name}}"`, and then provide a JSON-formatted hash of phone numbers to the substitutions map, like `"{’0123456789’: {’name’: ‘Jack’}, …}"`. We will place your custom values for each number in the corresponding placeholders and deliver.
+When you want to send a personalized message that follows a common pattern to several numbers, you can do that with the [`send_messages` API call](https://github.com/CarouselSMS/API/blob/master/sections/api/messaging.md). Outline the template, like `"Hello {{name}}"`, and then provide a JSON-formatted hash of phone numbers to the substitutions map, like `"{’0123456789’: {’name’: ‘Jack’}, …}"`. We will place your custom values for each number in the corresponding placeholders and deliver.
 
 ### How do I get the delivery status for the message?
 
@@ -201,7 +201,7 @@ This means that in order for the Static Responses to work, there has to be a ses
 
 If you’d like to set up simple auto-responders when there’s no session in place, you can simply set up a keyword with an `auto-response`.
 
-You can find details on how Sessions work in the [corresponding section](https://github.com/RecessMobile/API/blob/master/sections/api/sessions.md).
+You can find details on how Sessions work in the [corresponding section](https://github.com/CarouselSMS/API/blob/master/sections/api/sessions.md).
 
 Customizing module messages
 ---------------------------
@@ -227,5 +227,5 @@ We have two types of messages that work only when the Subscription Module is ena
 
 Customize these messages to include a name and links to your web site.
 
-&#8617; [Home](https://github.com/RecessMobile/API)
+&#8617; [Home](https://github.com/CarouselSMS/API)
 --------------

@@ -10,13 +10,13 @@ An application or SMSC can have any number of static responses. These can be reg
 Other modules
 -------------
 
-- ### [General information and introduction](https://github.com/RecessMobile/API/tree/master/sections/modules/module-general.md)
+- ### [General information and introduction](https://github.com/CarouselSMS/API/tree/master/sections/modules/module-general.md)
 
-- ### [Help module](https://github.com/RecessMobile/API/tree/master/sections/modules/module-help.md)
+- ### [Help module](https://github.com/CarouselSMS/API/tree/master/sections/modules/module-help.md)
 
-- ### [Subscriptions](https://github.com/RecessMobile/API/tree/master/sections/modules/module-subscriptions.md)
+- ### [Subscriptions](https://github.com/CarouselSMS/API/tree/master/sections/modules/module-subscriptions.md)
 
-- ### ["Welcome" module](https://github.com/RecessMobile/API/tree/master/sections/modules/module-welcome.md)
+- ### ["Welcome" module](https://github.com/CarouselSMS/API/tree/master/sections/modules/module-welcome.md)
 
 
 Configuration
@@ -25,5 +25,5 @@ Configuration
 **Keyword-Response** pairs can be entered on the application/SMSC configuration UI.
 
 
-&#8617; [Home](https://github.com/RecessMobile/API)
+&#8617; [Home](https://github.com/CarouselSMS/API)
 --------------

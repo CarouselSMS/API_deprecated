@@ -6,13 +6,13 @@ The welcome module is intended to send "Welcome" responses to first-time users o
 Other modules
 -------------
 
-- ### [General information and introduction](https://github.com/RecessMobile/API/tree/master/sections/modules/module-general.md)
+- ### [General information and introduction](https://github.com/CarouselSMS/API/tree/master/sections/modules/module-general.md)
 
-- ### [Help module](https://github.com/RecessMobile/API/tree/master/sections/modules/module-help.md)
+- ### [Help module](https://github.com/CarouselSMS/API/tree/master/sections/modules/module-help.md)
 
-- ### [Static Responses](https://github.com/RecessMobile/API/tree/master/sections/modules/module-static-respones.md)
+- ### [Static Responses](https://github.com/CarouselSMS/API/tree/master/sections/modules/module-static-respones.md)
 
-- ### [Subscriptions](https://github.com/RecessMobile/API/tree/master/sections/modules/module-subscriptions.md)
+- ### [Subscriptions](https://github.com/CarouselSMS/API/tree/master/sections/modules/module-subscriptions.md)
 
 
 How it works
@@ -29,5 +29,5 @@ Configuration
     given, the module is inactive. The message field can be found on the
     application and SMSC edit page in the Service Layer UI.
 
-&#8617; [Home](https://github.com/RecessMobile/API)
+&#8617; [Home](https://github.com/CarouselSMS/API)
 --------------

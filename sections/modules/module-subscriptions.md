@@ -10,13 +10,13 @@ All subscribers are registered in the Subscriptions table and can be tagged into
 Other modules
 -------------
 
-- ### [General information and introduction](https://github.com/RecessMobile/API/tree/master/sections/modules/module-general.md)
+- ### [General information and introduction](https://github.com/CarouselSMS/API/tree/master/sections/modules/module-general.md)
 
-- ### [Help module](https://github.com/RecessMobile/API/tree/master/sections/modules/module-help.md)
+- ### [Help module](https://github.com/CarouselSMS/API/tree/master/sections/modules/module-help.md)
 
-- ### [Static Responses](https://github.com/RecessMobile/API/tree/master/sections/modules/module-static-respones.md)
+- ### [Static Responses](https://github.com/CarouselSMS/API/tree/master/sections/modules/module-static-respones.md)
 
-- ### ["Welcome" module](https://github.com/RecessMobile/API/tree/master/sections/modules/module-welcome.md)
+- ### ["Welcome" module](https://github.com/CarouselSMS/API/tree/master/sections/modules/module-welcome.md)
 
 
 Configuration
@@ -40,5 +40,5 @@ Configuration
 -   **Limit Period** -- period of the limit (day, week, month, etc.)
 
 
-&#8617; [Home](https://github.com/RecessMobile/API)
+&#8617; [Home](https://github.com/CarouselSMS/API)
 --------------

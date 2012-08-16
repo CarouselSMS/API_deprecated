@@ -6,13 +6,13 @@ The Service Layer uses various modules to save you the trouble of developing com
 Modules
 -------
 
-- ### [Help module](https://github.com/RecessMobile/API/tree/master/sections/modules/module-help.md)
+- ### [Help module](https://github.com/CarouselSMS/API/tree/master/sections/modules/module-help.md)
 
-- ### [Static Responses](https://github.com/RecessMobile/API/tree/master/sections/modules/module-static-respones.md)
+- ### [Static Responses](https://github.com/CarouselSMS/API/tree/master/sections/modules/module-static-respones.md)
 
-- ### [Subscriptions](https://github.com/RecessMobile/API/tree/master/sections/modules/module-subscriptions.md)
+- ### [Subscriptions](https://github.com/CarouselSMS/API/tree/master/sections/modules/module-subscriptions.md)
 
-- ### ["Welcome" module](https://github.com/RecessMobile/API/tree/master/sections/modules/module-welcome.md)
+- ### ["Welcome" module](https://github.com/CarouselSMS/API/tree/master/sections/modules/module-welcome.md)
 
 
 Basics
@@ -29,7 +29,7 @@ know how to handle the message, or a hash with the following fields:
 
 Modules are organized in a chain, and are processed in sequence.
 
-![Processing MO modules](https://github.com/RecessMobile/API/raw/master/images/Processing_MO__modules_.png)
+![Processing MO modules](https://github.com/CarouselSMS/API/raw/master/images/Processing_MO__modules_.png)
 
 If the first module returns a result, the second listed isn’t called nor instantiated.
 
@@ -39,5 +39,5 @@ App Call* module. Then, if one of these keywords arrives, we can process them on
 An application can use any number of modules.
 
 
-&#8617; [Home](https://github.com/RecessMobile/API)
+&#8617; [Home](https://github.com/CarouselSMS/API)
 --------------

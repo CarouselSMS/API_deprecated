@@ -2,16 +2,16 @@ Callbacks - sessions
 ====================
 
 These are callbacks received around sessions.
-The [FAQ](https://github.com/RecessMobile/API/tree/master/FAQ.md) has more details on the concept of sessions.
+The [FAQ](https://github.com/CarouselSMS/API/tree/master/FAQ.md) has more details on the concept of sessions.
 
 Other callbacks sections
 ------------------------
 
-- ### [General information and introduction to callbacks](https://github.com/RecessMobile/API/tree/master/sections/api/callbacks-general.md)
+- ### [General information and introduction to callbacks](https://github.com/CarouselSMS/API/tree/master/sections/api/callbacks-general.md)
 
-- ### [Subscription-related callbacks](https://github.com/RecessMobile/API/tree/master/sections/api/callbacks-subscriptions.md)
+- ### [Subscription-related callbacks](https://github.com/CarouselSMS/API/tree/master/sections/api/callbacks-subscriptions.md)
 
-- ### [Notification callbacks](https://github.com/RecessMobile/API/tree/master/sections/api/callbacks-notifications.md)
+- ### [Notification callbacks](https://github.com/CarouselSMS/API/tree/master/sections/api/callbacks-notifications.md)
 
 
 Session closed `(session_closed)`
@@ -25,5 +25,5 @@ This callback is performed when a user session with an application is closed for
 -   `phone_numbers` -- comma-separated list of user phone numbers
 
 
-&#8617; [Home](https://github.com/RecessMobile/API)
+&#8617; [Home](https://github.com/CarouselSMS/API)
 --------------

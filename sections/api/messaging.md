@@ -6,11 +6,11 @@ The sections describes all of the API calls associated with sending and receivin
 Other types of API calls
 ------------------------
 
-- #### [Dealing with keywords](https://github.com/RecessMobile/API/tree/master/sections/api/keywords.md)
+- #### [Dealing with keywords](https://github.com/CarouselSMS/API/tree/master/sections/api/keywords.md)
 
-- #### [Managing sessions](https://github.com/RecessMobile/API/tree/master/sections/api/sessions.md)
+- #### [Managing sessions](https://github.com/CarouselSMS/API/tree/master/sections/api/sessions.md)
 
-- #### [Handling subscriptions](https://github.com/RecessMobile/API/tree/master/sections/api/subscriptions.md)
+- #### [Handling subscriptions](https://github.com/CarouselSMS/API/tree/master/sections/api/subscriptions.md)
 
 
 Send message `(send_message)`
@@ -176,5 +176,5 @@ Allows you to reuse the conversation thread (and its associated DID) for communi
 - `HTTP Code 200`
 
 
-&#8617; [Home](https://github.com/RecessMobile/API)
+&#8617; [Home](https://github.com/CarouselSMS/API)
 --------------

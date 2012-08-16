@@ -23,6 +23,6 @@ Query for carrier info for the given phone number.
     -   `:name` -- human-readable carrier name (e.g. Verizon, T-Mobile, etc.)
 
 
-&#8617; [Home](https://github.com/RecessMobile/API)
+&#8617; [Home](https://github.com/CarouselSMS/API)
 --------------
 

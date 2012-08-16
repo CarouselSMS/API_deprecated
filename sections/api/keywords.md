@@ -6,11 +6,11 @@ This set of calls allows an application to associate/dissociate keywords with it
 Other types of API calls
 ------------------------
 
-- #### [Sending messages](https://github.com/RecessMobile/API/tree/master/sections/api/messaging.md)
+- #### [Sending messages](https://github.com/CarouselSMS/API/tree/master/sections/api/messaging.md)
 
-- #### [Managing sessions](https://github.com/RecessMobile/API/tree/master/sections/api/sessions.md)
+- #### [Managing sessions](https://github.com/CarouselSMS/API/tree/master/sections/api/sessions.md)
 
-- #### [Handling subscriptions](https://github.com/RecessMobile/API/tree/master/sections/api/subscriptions.md)
+- #### [Handling subscriptions](https://github.com/CarouselSMS/API/tree/master/sections/api/subscriptions.md)
 
 
 Validate keyword `(validate_keyword)`
@@ -72,5 +72,5 @@ Breaks the link between the keyword and the application.
         keyword belongs to a different application.
 
 
-&#8617; [Home](https://github.com/RecessMobile/API)
+&#8617; [Home](https://github.com/CarouselSMS/API)
 --------------

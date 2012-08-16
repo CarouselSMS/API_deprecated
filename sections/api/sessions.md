@@ -1,16 +1,16 @@
 Sessions
 ========
 
-Sessions are used to maintain connections between a user's phone and the application. See the [FAQ](https://github.com/RecessMobile/API/tree/master/FAQ.md) for more.
+Sessions are used to maintain connections between a user's phone and the application. See the [FAQ](https://github.com/CarouselSMS/API/tree/master/FAQ.md) for more.
 
 Other types of API calls
 ------------------------
 
-- #### [Dealing with keywords](https://github.com/RecessMobile/API/tree/master/sections/api/keywords.md)
+- #### [Dealing with keywords](https://github.com/CarouselSMS/API/tree/master/sections/api/keywords.md)
 
-- #### [Sending messages](https://github.com/RecessMobile/API/tree/master/sections/api/messaging.md)
+- #### [Sending messages](https://github.com/CarouselSMS/API/tree/master/sections/api/messaging.md)
 
-- #### [Handling subscriptions](https://github.com/RecessMobile/API/tree/master/sections/api/subscriptions.md)
+- #### [Handling subscriptions](https://github.com/CarouselSMS/API/tree/master/sections/api/subscriptions.md)
 
 
 Close sessions `(close_sessions)`
@@ -30,5 +30,5 @@ Closes active sessions between the application and phone numbers.
 -   `HTTP Code 200`
 
 
-&#8617; [Home](https://github.com/RecessMobile/API)
+&#8617; [Home](https://github.com/CarouselSMS/API)
 --------------

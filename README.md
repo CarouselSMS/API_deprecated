@@ -21,15 +21,15 @@ Modules
 
 The SL uses a series of modules to provide basic business logic for applications.
 
-- ### [General information and introduction](https://github.com/RecessMobile/API/tree/master/sections/modules/module-general.md)
+- ### [General information and introduction](https://github.com/CarouselSMS/API/tree/master/sections/modules/module-general.md)
 
-- ### [Help module](https://github.com/RecessMobile/API/tree/master/sections/modules/module-help.md)
+- ### [Help module](https://github.com/CarouselSMS/API/tree/master/sections/modules/module-help.md)
 
-- ### [Static Responses](https://github.com/RecessMobile/API/tree/master/sections/modules/module-static-respones.md)
+- ### [Static Responses](https://github.com/CarouselSMS/API/tree/master/sections/modules/module-static-respones.md)
 
-- ### [Subscriptions](https://github.com/RecessMobile/API/tree/master/sections/modules/module-subscriptions.md)
+- ### [Subscriptions](https://github.com/CarouselSMS/API/tree/master/sections/modules/module-subscriptions.md)
 
-- ### ["Welcome" module](https://github.com/RecessMobile/API/tree/master/sections/modules/module-welcome.md)
+- ### ["Welcome" module](https://github.com/CarouselSMS/API/tree/master/sections/modules/module-welcome.md)
 
 
 Callbacks
@@ -37,13 +37,13 @@ Callbacks
 
 The following links provide detailed documentation on callbacks.
 
-- ### [General information and introduction to callbacks](https://github.com/RecessMobile/API/tree/master/sections/api/callbacks-general.md)
+- ### [General information and introduction to callbacks](https://github.com/CarouselSMS/API/tree/master/sections/api/callbacks-general.md)
 
-- ### [Sessions](https://github.com/RecessMobile/API/tree/master/sections/api/callbacks-sessions.md)
+- ### [Sessions](https://github.com/CarouselSMS/API/tree/master/sections/api/callbacks-sessions.md)
 
-- ### [Subscription-related callbacks](https://github.com/RecessMobile/API/tree/master/sections/api/callbacks-subscriptions.md)
+- ### [Subscription-related callbacks](https://github.com/CarouselSMS/API/tree/master/sections/api/callbacks-subscriptions.md)
 
-- ### [Notification callbacks](https://github.com/RecessMobile/API/tree/master/sections/api/callbacks-notifications.md)
+- ### [Notification callbacks](https://github.com/CarouselSMS/API/tree/master/sections/api/callbacks-notifications.md)
 
 Calls
 -----
@@ -61,13 +61,13 @@ operation is appended:
 
 ### Types of calls
 
-- #### [Dealing with keywords](https://github.com/RecessMobile/API/tree/master/sections/api/keywords.md)
+- #### [Dealing with keywords](https://github.com/CarouselSMS/API/tree/master/sections/api/keywords.md)
 
-- #### [Sending messages](https://github.com/RecessMobile/API/tree/master/sections/api/messaging.md)
+- #### [Sending messages](https://github.com/CarouselSMS/API/tree/master/sections/api/messaging.md)
 
-- #### [Managing sessions](https://github.com/RecessMobile/API/tree/master/sections/api/sessions.md)
+- #### [Managing sessions](https://github.com/CarouselSMS/API/tree/master/sections/api/sessions.md)
 
-- #### [Handling subscriptions](https://github.com/RecessMobile/API/tree/master/sections/api/subscriptions.md)
+- #### [Handling subscriptions](https://github.com/CarouselSMS/API/tree/master/sections/api/subscriptions.md)
 
 
 Data types
@@ -120,6 +120,6 @@ Definitions
 -  **DID** ([**D**irect **I**nward **D**ialing](http://en.wikipedia.org/wiki/Direct_inward_dialing)): the term we use for virtual numbers or long codes. These are 10-digit phone numbers in the United States.
 -  **SMSC** ([**S**hort **M**essage **S**ervice **C**enter](http://en.wikipedia.org/wiki/Short_message_service_center)): the point in the stack which stores and delivers text messages. In our case, we use internal SMSCs which can be made up of one DID or many. Multiple DIDs allow for threaded conversations and higher throughput.
 
-[FAQ](https://github.com/RecessMobile/API/tree/master/FAQ.md)
+[FAQ](https://github.com/CarouselSMS/API/tree/master/FAQ.md)
 ----
 

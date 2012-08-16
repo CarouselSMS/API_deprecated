@@ -8,11 +8,11 @@ For your application to know about and respond to subscription and cancellation 
 Other callbacks sections
 ------------------------
 
-- ### [General information and introduction to callbacks](https://github.com/RecessMobile/API/tree/master/sections/api/callbacks-general.md)
+- ### [General information and introduction to callbacks](https://github.com/CarouselSMS/API/tree/master/sections/api/callbacks-general.md)
 
-- ### [Sessions](https://github.com/RecessMobile/API/tree/master/sections/api/callbacks-sessions.md)
+- ### [Sessions](https://github.com/CarouselSMS/API/tree/master/sections/api/callbacks-sessions.md)
 
-- ### [Notification callbacks](https://github.com/RecessMobile/API/tree/master/sections/api/callbacks-notifications.md)
+- ### [Notification callbacks](https://github.com/CarouselSMS/API/tree/master/sections/api/callbacks-notifications.md)
 
 Subscription created `(subscription_created)`
 ---------------------------------------------
@@ -41,5 +41,5 @@ This is invoked when a user decides to unsubscribe from the application.
 -   `type` -- `subscription_canceled`
 -   `phone_number` -- phone number of the unsubscribed user
 
-&#8617; [Home](https://github.com/RecessMobile/API)
+&#8617; [Home](https://github.com/CarouselSMS/API)
 --------------

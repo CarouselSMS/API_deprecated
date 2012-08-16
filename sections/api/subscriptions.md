@@ -6,11 +6,11 @@ Calls for managing subscribers and sending them messages.
 Other types of API calls
 ------------------------
 
-- #### [Dealing with keywords](https://github.com/RecessMobile/API/tree/master/sections/api/keywords.md)
+- #### [Dealing with keywords](https://github.com/CarouselSMS/API/tree/master/sections/api/keywords.md)
 
-- #### [Sending messages](https://github.com/RecessMobile/API/tree/master/sections/api/messaging.md)
+- #### [Sending messages](https://github.com/CarouselSMS/API/tree/master/sections/api/messaging.md)
 
-- #### [Managing sessions](https://github.com/RecessMobile/API/tree/master/sections/api/sessions.md)
+- #### [Managing sessions](https://github.com/CarouselSMS/API/tree/master/sections/api/sessions.md)
 
 
 Tag subscribers `(tag_subscribers)`
@@ -74,7 +74,7 @@ If a time in the `on` field is given, the call schedules a message for future de
 The message text will be split and otherwise processed in the same way as a regular subscription message.
 
 The scheduled date of message delivery must be set for the next day or later. The date can contain a
-suggested time. The application will use it for guidance. The message is guaranteed to not be sent before this time, but can be sent later. The messages are scheduled to be sent in batches periodically during the day (currently every two hours). The format of the date may vary from the strict `10/12/2008 12:55AM -0500` to the relaxed `Tuesday 9 1:15PM`. If the timezone isn’t specified, then `EST` is assumed.
+suggested time. The application will use it for guidance. The message is guaranteed to not be sent before this time, but can be sent later. The messages are scheduled to be sent in batches periodically during the day (currently every two hours). The format of the date may vary from the strict `10/12/2008 12:55AM -0500` to the relaxed `Tuesday 9 1:15PM`. If the timezone isn't specified, then `EST` is assumed.
 
 ### Parameters
 
@@ -98,7 +98,7 @@ Cancel subscription messages `(cancel_subscription_messages)`
 This call cancels subscription messages scheduled for future delivery (those messages which use the `send_subscription_message` call with the parameter `on`). The `send_subscription_message` call returns the list of IDs corresponding to all scheduled messages. You can use these IDs to cancel future messages at any time.
 
 Please note that this call is for scheduled **subscription** messages.
-Use the [`cancel_messages` call](https://github.com/RecessMobile/API/blob/master/sections/api/messaging.md) for cancelation of regular (non-subscription) scheduled messages.
+Use the [`cancel_messages` call](https://github.com/CarouselSMS/API/blob/master/sections/api/messaging.md) for cancellation of regular (non-subscription) scheduled messages.
 
 ### Parameters
 
@@ -111,5 +111,5 @@ Use the [`cancel_messages` call](https://github.com/RecessMobile/API/blob/master
     -   `canceled_count` -- *integer* -- the number of canceled messages.
 
 
-&#8617; [Home](https://github.com/RecessMobile/API)
+&#8617; [Home](https://github.com/CarouselSMS/API)
 --------------
