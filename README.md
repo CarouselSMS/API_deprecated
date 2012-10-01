@@ -61,13 +61,12 @@ operation is appended:
 
 ### Types of calls
 
-- #### [Dealing with keywords](https://github.com/CarouselSMS/API/tree/master/sections/api/keywords.md)
 
 - #### [Sending messages](https://github.com/CarouselSMS/API/tree/master/sections/api/messaging.md)
 
 - #### [Managing sessions](https://github.com/CarouselSMS/API/tree/master/sections/api/sessions.md)
 
-- #### [Handling subscriptions](https://github.com/CarouselSMS/API/tree/master/sections/api/subscriptions.md)
+- #### [Dealing with phones](https://github.com/CarouselSMS/API/tree/master/sections/api/phones.md)
 
 
 Data types
