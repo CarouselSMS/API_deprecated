@@ -1,7 +1,11 @@
-Blacklist
-========
+Blacklisting
+============
 
-This set of calls lets the application work with phone blacklisting.
+This set of calls manages end-user blacklisting.
+
+Users who opt-out are blacklisted, preventing them from receiving further messages.
+
+You can unblacklist using these API calls, or by having the user text in a subscription keyword.
 
 Other types of API calls
 ------------------------
@@ -14,9 +18,9 @@ Other types of API calls
 
 
 Blacklisting `(blacklist)`
------------------------------
+--------------------------
 
-Adds phone numbers to blacklist.
+Adds phone numbers to the blacklist arbitrarily.
 
 ### Parameters
 
@@ -28,44 +32,44 @@ Adds phone numbers to blacklist.
 ### Responses
 
 -   A JSON-formatted map of specified phone numbers to statuses of blacklisting:
-	- true -- phone number was successfully blacklisted;
-	- false -- blacklisting operation failed.
+  - true -- phone number was successfully blacklisted;
+  - false -- blacklisting operation failed.
 
 Unblacklisting `(unblacklist)`
 -----------------------------
 
-Removes phone numbers from blacklist.
+Removes phone numbers from the blacklist.
 
 ### Parameters
 
 -   `api_key` -- *string* -- API key of the application
 -   `phone_number` or `phone_numbers` -- *string* -- phone number
-    (10 digits with or without country code) or a comma-separated list
+    (10 digits with or without a country code) or a comma-separated list
     of phone numbers.
 
 ### Responses
 
--   A JSON-formatted map of specified phone numbers to statuses of unblacklisting:
-	- true -- phone number was successfully removed from blacklist;
-	- false -- unblacklisting operation failed.	
+-   A JSON-formatted map of specified phone numbers to their blacklist status:
+  - true -- phone number was successfully removed from the blacklist
+	- false -- unblacklisting operation failed	
 
 Blacklisting status `(blacklist_status)`
------------------------------
+----------------------------------------
 
-Query for blacklist status for the given phone numbers.
+Query for the blacklist status of a given phone number or numbers.
 
 ### Parameters
 
 -   `api_key` -- *string* -- API key of the application
 -   `phone_number` or `phone_numbers` -- *string* -- phone number
-    (10 digits with or without country code) or a comma-separated list
+    (10 digits with or without a country code) or a comma-separated list
     of phone numbers.
 
 ### Responses
 
--   A JSON-formatted map of specified phone numbers to their blacklisting statuses:
-	- true -- phone number is blacklisted;
-	- false -- phone number is not blacklisted.	
+-   A JSON-formatted map of the specified phone numbers to their blacklist status:
+  - true -- phone number is blacklisted
+	- false -- phone number is not blacklisted
 
 
 &#8617; [Home](https://github.com/CarouselSMS/API)

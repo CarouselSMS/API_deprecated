@@ -10,7 +10,7 @@ Other types of API calls
 
 - #### [Managing sessions](https://github.com/CarouselSMS/API/tree/master/sections/api/sessions.md)
 
-- #### [Blacklist](https://github.com/CarouselSMS/API/tree/master/sections/api/blacklist.md)
+- #### [Blacklisting](https://github.com/CarouselSMS/API/tree/master/sections/api/blacklist.md)
 
 
 Validate keyword `(validate_keyword)`

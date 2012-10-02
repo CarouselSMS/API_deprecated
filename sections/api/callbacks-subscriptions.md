@@ -1,4 +1,4 @@
-Callbacks - subscriptions
+Callbacks - subscriptions (**deprecated**)
 =========================
 
 The Service Layer, when enabled to handle subscription management (the Subscription Module is toggled within the Service Layer UI), consumes all messages related to the subscription cycle, such as `STOP`, `SUB`, `Y` and others. 

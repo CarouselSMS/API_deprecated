@@ -27,8 +27,6 @@ The SL uses a series of modules to provide basic business logic for applications
 
 - ### [Static Responses](https://github.com/CarouselSMS/API/tree/master/sections/modules/module-static-respones.md)
 
-- ### [Subscriptions](https://github.com/CarouselSMS/API/tree/master/sections/modules/module-subscriptions.md)
-
 - ### ["Welcome" module](https://github.com/CarouselSMS/API/tree/master/sections/modules/module-welcome.md)
 
 
@@ -41,8 +39,6 @@ The following links provide detailed documentation on callbacks.
 
 - ### [Sessions](https://github.com/CarouselSMS/API/tree/master/sections/api/callbacks-sessions.md)
 
-- ### [Subscription-related callbacks](https://github.com/CarouselSMS/API/tree/master/sections/api/callbacks-subscriptions.md)
-
 - ### [Notification callbacks](https://github.com/CarouselSMS/API/tree/master/sections/api/callbacks-notifications.md)
 
 Calls
@@ -52,12 +48,11 @@ All calls should be performed with POST request. The API Key (`api_key`)
 is the only form field required to be present in every call to the
 SL.
 
-There’s an API URL that is used at all times to which the name of the
-operation is appended:
+An API URL is used for all operations. Append the API key to the URL,
+along with the desired action:
 
 ### URL
-`http://sl.carouselsms.com/api/<operation>` or
-`https://sl.carouselsms.com/api/<operation>` (SSL support)
+`https://sl.carouselsms.com/api/<operation>?<api_key=API_KEY>&<...>` (over SSL)
 
 ### Types of calls
 

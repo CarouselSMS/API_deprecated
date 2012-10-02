@@ -10,7 +10,7 @@ Other types of API calls
 
 - #### [Managing sessions](https://github.com/CarouselSMS/API/tree/master/sections/api/sessions.md)
 
-- #### [Blacklist](https://github.com/CarouselSMS/API/tree/master/sections/api/blacklist.md)
+- #### [Blacklisting](https://github.com/CarouselSMS/API/tree/master/sections/api/blacklist.md)
 
 
 Send message `(send_message)`
@@ -77,7 +77,7 @@ There's no charge for sending message to these numbers, which can be used for te
         `message_ids` key. This is useful for matching sent
         messages with delivery reports and message cancellation.
         Negative IDs are possible in these cases:
-    	  -   `-1` -- if phone number was invalid.
+    	-   `-1` -- if phone number was invalid.
         -   `-2` -- if phone number is currently blacklisted.
         -   `-3` -- if phone is being flooded and reached the limit of
             messages for a configured period of time for this app.

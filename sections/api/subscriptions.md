@@ -1,4 +1,4 @@
-Subscriptions
+Subscriptions (**deprecated**)
 =============
 
 Calls for managing subscribers and sending them messages.

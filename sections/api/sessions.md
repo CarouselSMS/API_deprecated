@@ -10,7 +10,7 @@ Other types of API calls
 
 - #### [Sending messages](https://github.com/CarouselSMS/API/tree/master/sections/api/messaging.md)
 
-- #### [Blacklist](https://github.com/CarouselSMS/API/tree/master/sections/api/blacklist.md)
+- #### [Blacklisting](https://github.com/CarouselSMS/API/tree/master/sections/api/blacklist.md)
 
 
 Close sessions `(close_sessions)`
