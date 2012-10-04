@@ -1,4 +1,4 @@
-Module - static responses
+Module - static responses (**deprecated**)
 =========================
 
 The Static responses module provides a flexible feature: automated responses to certain keywords. These are available at the applications or SMSC levels.

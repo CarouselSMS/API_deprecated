@@ -10,8 +10,6 @@ Other modules
 
 - ### [General information and introduction](https://github.com/CarouselSMS/API/tree/master/sections/modules/module-general.md)
 
-- ### [Static Responses](https://github.com/CarouselSMS/API/tree/master/sections/modules/module-static-respones.md)
-
 - ### [Subscriptions](https://github.com/CarouselSMS/API/tree/master/sections/modules/module-subscriptions.md)
 
 - ### ["Welcome" module](https://github.com/CarouselSMS/API/tree/master/sections/modules/module-welcome.md)
