@@ -22,7 +22,7 @@ If your application needs to send a message to a certain phone number, start wit
 -   `(2/3) …continuation …`
 -   `(3/3) …the final piece.`
 
-Scheduled messages are sent in batches every 15 minutes. The date format (see the `on` field) may vary from the strict `10/12/2008 12:55AM —0500` to the relaxed `Tuesday 9 1:15PM`. If the timezone isn’t specified, then `EST (GMT-5)` is assumed.
+Scheduled messages are sent in batches every 15 minutes. The date format (see the `on` field) may vary from the strict `10/12/2008 12:55AM —0500` to the relaxed `Tuesday 9 1:15PM`. If the timezone isn’t specified, then `UTC` is assumed.
 
 ### Split modes
 
