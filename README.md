@@ -1,12 +1,24 @@
 Service Layer API documentation
 ===============================
 
-API documentation for Service Layer (**SL**) API.
+Endpoint
+-----
 
-Sign up for an invitation ahead of our public launch, at [carouselsms.com](http://carouselsms.com).
+    http://sl.carouselsms.com/api/
 
+**Request format**: HTTP POST to endpoint with [URL encoded](http://en.wikipedia.org/wiki/Percent-encoding) parameters.
 
-API keys
+**Response format**: [JSON](http://json.org).
+
+Examples:
+
+    curl 'http://sl.carouselsms.com/api/send_message?api_key=API_KEY&body=test&phone_number=+1(347)264-3707'
+    {"message_ids":"5554055"}
+ 
+    curl 'http://sl.carouselsms.com/api/send_messages?api_key=API_KEY&template=Hello,%20%7B%7Bname%7D%7D&recipients=%7B%2213472643707%22:%7B%22name%22:%22Alex%22%7D,%221234567890%22:%7B%22name%22:%22Unknown%22%7D%7D' 
+    {"message_ids":"5554173"}
+    * without encoding URL looks like: http://sl.carouselsms.com/api/send_messages?api_key=API_KEY&template=Hello, {{name}}&recipients={"13472643707": {"name": "Alex"}, "1234567890": {"name": "Unknown"}}
+API key
 --------
 
 Every client Application (app) has an API key associated with it. This
@@ -14,46 +26,10 @@ key is generated during the creation of the app and can be re-generated
 from the show/edit screens in the administrative console.
 
 This key uniquely identifies an app during the calls the app does to the
-SL.
+Service Layer (SL).
 
-Modules
--------
-
-The SL uses a series of modules to provide basic business logic for applications.
-
-- ### [General information and introduction](https://github.com/CarouselSMS/API/tree/master/sections/modules/module-general.md)
-
-- ### [Help module](https://github.com/CarouselSMS/API/tree/master/sections/modules/module-help.md)
-
-- ### ["Welcome" module](https://github.com/CarouselSMS/API/tree/master/sections/modules/module-welcome.md)
-
-
-Callbacks
----------
-
-The following links provide detailed documentation on callbacks.
-
-- ### [General information and introduction to callbacks](https://github.com/CarouselSMS/API/tree/master/sections/api/callbacks-general.md)
-
-- ### [Sessions](https://github.com/CarouselSMS/API/tree/master/sections/api/callbacks-sessions.md)
-
-- ### [Notification callbacks](https://github.com/CarouselSMS/API/tree/master/sections/api/callbacks-notifications.md)
-
-Calls
------
-
-All calls should be performed with POST request. The API Key (`api_key`)
-is the only form field required to be present in every call to the
-SL.
-
-An API URL is used for all operations. Append the API key to the URL,
-along with the desired action:
-
-### URL
-`https://sl.carouselsms.com/api/<operation>?<api_key=API_KEY>&<...>` (over SSL)
-
-### Types of calls
-
+Methods
+---
 
 - #### [Dealing with keywords](https://github.com/CarouselSMS/API/tree/master/sections/api/keywords.md)
 
@@ -63,12 +39,10 @@ along with the desired action:
 
 - #### [Blacklist](https://github.com/CarouselSMS/API/tree/master/sections/api/blacklist.md)
 
-
 Data types
 ----------
 
-Parameters that you specify in calls to the API and receive as callbacks
-from the API can be of different types.
+Types of parameters being passed with API calls and received as callbacks:
 
 ### String
 
@@ -104,6 +78,30 @@ Here are some examples of what the dates can look like:
 
 If you need a stricter definition, you can refer to [RFC2822 (3.3. Date
 and Time Specification)](http://www.faqs.org/rfcs/rfc2822.html).
+
+
+Modules
+-------
+
+The SL uses a series of modules to provide basic business logic for applications.
+
+- ### [General information and introduction](https://github.com/CarouselSMS/API/tree/master/sections/modules/module-general.md)
+
+- ### [Help module](https://github.com/CarouselSMS/API/tree/master/sections/modules/module-help.md)
+
+- ### ["Welcome" module](https://github.com/CarouselSMS/API/tree/master/sections/modules/module-welcome.md)
+
+
+Callbacks
+---------
+
+The following links provide detailed documentation on callbacks.
+
+- ### [General information and introduction to callbacks](https://github.com/CarouselSMS/API/tree/master/sections/api/callbacks-general.md)
+
+- ### [Sessions](https://github.com/CarouselSMS/API/tree/master/sections/api/callbacks-sessions.md)
+
+- ### [Notification callbacks](https://github.com/CarouselSMS/API/tree/master/sections/api/callbacks-notifications.md)
 
 Definitions
 -----------
