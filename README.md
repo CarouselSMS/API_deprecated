@@ -6,9 +6,9 @@ Endpoint
 
     http://sl.carouselsms.com/api/
 
-**Request format**: HTTP POST to endpoint with [URL encoded](http://en.wikipedia.org/wiki/Percent-encoding) parameters.
+**Format of Request**: HTTP POST to endpoint with [URL encoded](http://en.wikipedia.org/wiki/Percent-encoding) parameters.
 
-**Response format**: [JSON](http://json.org).
+**Format of Response**: [JSON](http://json.org).
 
 Examples:
 
