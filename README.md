@@ -1,5 +1,15 @@
 Service Layer API documentation
-===============================
+============================
+---
+
+_DEPRECATED_
+============
+
+See [CarouselSMS.com/#documentation](http://carouselsms.com/#documentation) instead.
+
+
+---
+
 
 Endpoint
 -----
@@ -18,6 +28,7 @@ Examples:
     curl 'http://sl.carouselsms.com/api/send_messages?api_key=API_KEY&template=Hello,%20%7B%7Bname%7D%7D&recipients=%7B%2213472643707%22:%7B%22name%22:%22Alex%22%7D,%221234567890%22:%7B%22name%22:%22Unknown%22%7D%7D' 
     {"message_ids":"5554173"}
     * without encoding URL looks like: http://sl.carouselsms.com/api/send_messages?api_key=API_KEY&template=Hello, {{name}}&recipients={"13472643707": {"name": "Alex"}, "1234567890": {"name": "Unknown"}}
+    
 API key
 --------
 
@@ -115,3 +126,9 @@ Definitions
 [FAQ](https://github.com/CarouselSMS/API/tree/master/FAQ.md)
 ----
 
+
+
+License
+=======
+
+The Carousel API documents are Copyright © 2013 [Recess Mobile](http://recess.im/).
